@@ -9,9 +9,9 @@ function App() {
   const passwordReference = useRef(null);
   
   const copyToClip = useCallback(()=>{
+    window.alert("Password copied to clipboard")
     passwordReference.current?.select()
     window.navigator.clipboard.writeText(password)
-    window.alert("Password copied to clipboard")
   },[password])
 
   const passwordGenerator = useCallback(()=>{
