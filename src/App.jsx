@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <div className="w-[80%] h-32 border-solid border-4 rounded-3xl border-yellow-400 flex justify-center flex-wrap">
-        <h1 className="text-green-300 sm:text-5xl sm:bg-[#000] sm:w-[80%] sm:h-10 sm:rounded-lg items-center sm:justify-center sm:hidden md:flex ">Password Generator</h1>
+        <h1 className="text-green-300 text-3xl sm:text-4xl bg-blue-900 sm:w-[80%] sm:h-10 sm:rounded-lg items-center sm:justify-center sm:hidden md:flex ">Password Generator</h1>
         <input type="text" ref={passwordReference} value={password} readOnly placeholder="Password" className="w-[90%] text-center h-16 rounded-xl text-lg"></input>
       </div>
       <div className="w-[40%] h-16 mb-auto flex flex-wrap justify-around items-center">
